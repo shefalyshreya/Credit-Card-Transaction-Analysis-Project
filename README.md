@@ -28,5 +28,14 @@ This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrat
         - Stored procedures for automated trend analysis and high-risk transaction detection
           
     - The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
+ 
+  # **FolderType** #
+  
+CreditCardTransactions
+ - StoredProcedure/ # Key stored procedure for analysis
+ - AdhocAnlaysis/ # SQL queries to perform the analysis
+ - DataExploration/ # SQL scripts exploring the dataset
+ - Dataset/ # Raw CSV dataset
+ - README.md # Project documentation (this file)
 
 
