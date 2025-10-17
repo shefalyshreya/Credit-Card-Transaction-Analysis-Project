@@ -14,11 +14,11 @@
 
 7.[StoredProceduresUsage](#StoredProceduresUsage)
 
-#**Description**#
-This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrates:
+ **Description**
+  This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrates:
 
--Exploratory Data Analysis (EDA) to understand patterns and distributions in the dataset
-SQL queries for ad-hoc analysis and insights, including:
+    -Exploratory Data Analysis (EDA) to understand patterns and distributions in the dataset
+         -SQL queries for ad-hoc analysis and insights, including:
 JOINs to combine multiple tables
 GROUP BY / HAVING for aggregated analysis
 Window functions for running totals and ranking
