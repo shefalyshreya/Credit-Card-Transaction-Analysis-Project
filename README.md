@@ -29,7 +29,7 @@ This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrat
           
     - The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
  
-  # **FolderType** #
+ # **FolderType** #
   
 CreditCardTransactions
  - StoredProcedure/  Key stored procedure for analysis
