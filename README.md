@@ -25,6 +25,7 @@ This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrat
         - Window functions for running totals and ranking
         - Subqueries and CTEs for complex calculations
         - Stored procedures for automated trend analysis and high-risk transaction detection
-The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
+          
+        - The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
 
 
