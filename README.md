@@ -87,11 +87,12 @@ The SQL scripts in the AdhocAnalysis/ folder include 9 analytical questions with
 - Stored procedures are saved in the StoredProcedures/ folder.
 
   # **Stored Procedure Usage** #
--- Analyze a specific card type (e.g., Gold) CALL AnalyzeCardTypeExpYearCombined('Gold');
+-  Analyze a specific card type (e.g., Gold) CALL AnalyzeCardTypeExpYearCombined('Gold');
 
--- Analyze all card types CALL AnalyzeCardTypeExpYearCombined(NULL); or CALL AnalyzeCardTypeExpYearCombined('');
+-  Analyze all card types CALL AnalyzeCardTypeExpYearCombined(NULL); or CALL AnalyzeCardTypeExpYearCombined('');
 
 1- The output includes year-wise summary, total transactions, total amount, average amount, and high-risk flag
+
 2- Useful for dashboards and reports for non-technical users
 
 
