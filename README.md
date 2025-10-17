@@ -79,5 +79,12 @@ The SQL scripts in the AdhocAnalysis/ folder include 9 analytical questions with
 8. City with highest spend-to-transaction ratio during weekends.
 9. City that reached its 500th transaction fastest after the first transaction in that city.
 
+# **Stored Procedures** #
+- Key stored procedure: AnalyzeCardTypeExpYearCombined.sql
+- Purpose:
+ - Provides combined summary and trend analysis for each card type and expense type by year
+Flags high-risk transactions automatically (If more than 50% of transactions in a card type exceed the average amount for that card type, expense type and by year , flagging them 'High Risk'.)
+- Stored procedures are saved in the StoredProcedures/ folder.
+
 
 
