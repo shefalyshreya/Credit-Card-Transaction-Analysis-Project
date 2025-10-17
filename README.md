@@ -15,6 +15,7 @@
 7.[StoredProceduresUsage](#StoredProceduresUsage)
 
  **Description**
+ 
 This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrates:
 - Exploratory Data Analysis (EDA) to understand patterns and distributions in the dataset
   
@@ -26,6 +27,6 @@ This project analyzes the Kaggle Credit Card Transactions dataset. It demonstrat
         - Subqueries and CTEs for complex calculations
         - Stored procedures for automated trend analysis and high-risk transaction detection
           
-        - The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
+    - The analysis covers transactions by card type, expense type, city, gender, and time trends, helping identify usage patterns and high-risk behaviors.
 
 
