@@ -52,9 +52,9 @@ Columns include:
   
 The dataset covers transactions from **2013-10-04 to 2015-05-26**.
 
-#**Data Exploration**#
+# **Data Exploration** #
 
-DataExploration explore dataset properties:
+  DataExploration explore dataset properties:
 
 - Transaction counts and uniqueness
 - Date ranges and trends
