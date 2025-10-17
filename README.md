@@ -40,6 +40,7 @@ CreditCardTransactions
 
 # **Dataset** #
 File: credit_card_transactions.csv (https://www.kaggle.com/datasets/thedevastator/analyzing-credit-card-spending-habits-in-india)
+
 Columns include:
 - transaction_id – Unique identifier for each transaction
 - city – City where transaction occurred
@@ -48,5 +49,6 @@ Columns include:
 - exp_type – Expense type: Bills, Food, Entertainment, Grocery, Fuel, Travel
 - gender – Customer gender: M/F
 - amount – Transaction amount
+  
 The dataset covers transactions from **2013-10-04 to 2015-05-26**.
 
