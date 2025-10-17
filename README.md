@@ -47,8 +47,20 @@ Columns include:
 - transaction_date – Date of the transaction
 - card_type – Card type: Gold, Platinum, Silver, Signature
 - exp_type – Expense type: Bills, Food, Entertainment, Grocery, Fuel, Travel
-- gender – Customer gender: M/F
+- gender – Customer gender: Male/Female
 - amount – Transaction amount
   
 The dataset covers transactions from **2013-10-04 to 2015-05-26**.
+
+#**Data Exploration**#
+DataExploration explore dataset properties:
+
+- Transaction counts and uniqueness
+- Date ranges and trends
+- Distribution of card types and expense types
+- Top cities by spend and transaction count
+- Gender-based expense patterns
+This helps understand behavior patterns before running advanced analysis.
+
+
 
