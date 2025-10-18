@@ -110,9 +110,31 @@ group by city
 having count(*)=2
 order by days_to_500 asc
 
-with cte1 as(select * from (select *,row_number() over (partition by city order by transaction_date ) as dnfrom credit_card_transactions)Awhere A.dn=500),cte2 as(select city,min(transaction_date) as min_transaction_datefrom credit_card_transactionsgroup by city),cte3 as(select a.city,datediff(day,b.min_transaction_date,a.transaction_date) as no_of_days from cte1 ainner join cte2 bon a.city=b.city)select distinct city,no_of_days from cte3 where no_of_days in (select min(no_of_days) from cte3)
+with cte1 as
+(
+select * from (
+select *,
+row_number() over (partition by city order by transaction_date ) as dn
+from credit_card_transactions
+)A
+where A.dn=500
+),
+cte2 as
+(
+select city,min(transaction_date) as min_transaction_date
+from credit_card_transactions
+group by city
+),
+cte3 as
+(select a.city,
+datediff(day,b.min_transaction_date,a.transaction_date) as no_of_days from cte1 a
+inner join cte2 b
+on a.city=b.city
+)
+select distinct city,no_of_days from cte3 where no_of_days in (select min(no_of_days) from cte3)
 
 bangalore 
 1-jan-2023 -> 100
 2-jan-2023 -> 200
+
 3-jan-2023 -> 230
